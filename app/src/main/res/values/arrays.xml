@@ -13,4 +13,12 @@
         <item>2009</item>
         <item>2010</item>
     </string-array>
+<!--    <string-array name="cat">-->
+<!--        <item>Drama</item>-->
+<!--        <item>Acción</item>-->
+<!--        <item>Humor</item>-->
+<!--        <item>Terror</item>-->
+<!--        <item>Romántica</item>-->
+<!--        <item>Infantil</item>-->
+<!--    </string-array>-->
 </resources>

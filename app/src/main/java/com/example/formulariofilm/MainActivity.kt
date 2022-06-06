@@ -30,25 +30,7 @@ class MainActivity : AppCompatActivity() {
         intentResult.putExtra("CATEGORIA", cat.toString())
         startActivity(intentResult)
     }
-//    fun getSpinner(spinner: Spinner){
-//        val adaptador: ArrayAdapter<*> = ArrayAdapter.createFromResource(this, R.array.Year,
-//            android.R.layout.simple_spinner_item)
-//        spinner.adapter = adaptador
-//        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-//            override fun onItemSelected(
-//                parent: AdapterView<*>?,
-//                view: View?,
-//                position: Int,
-//                id: Long
-//            ) {
-//                year = parent?.getItemAtPosition(position).toString()
-//            }
-//
-//            override fun onNothingSelected(parent: AdapterView<*>?) {
-//                year = "No ha habido selección"
-//            }
-//        }
-//    }
+
     fun onCheckBoxClicked(view: View){
         if (view is CheckBox) {
             val ckName = view.text.toString()
@@ -57,8 +39,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 if (cat.contains(ckName)) { cat.remove(ckName) }
             }
-            msj(ckName)
-
+            msj(this, ckName, true)
 
         }
     }
@@ -67,9 +48,5 @@ class MainActivity : AppCompatActivity() {
     }
     fun unCheckCategory(str:String){
         if (cat.contains(str)) { cat.remove(str) }
-    }
-
-    fun msj(str:String){
-        Toast.makeText(this@MainActivity, str, Toast.LENGTH_SHORT).show()
     }
 }

@@ -108,7 +108,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/genD"
-                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+                tools:ignore="DuplicateSpeakableTextCheck,OnClick,TextContrastCheck,TouchTargetSizeCheck"
+                android:onClick="onCheckBoxClicked"/>
 
 
             <Space
@@ -122,7 +123,8 @@
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
                 android:text="@string/genA"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck"
+                android:onClick="onCheckBoxClicked"/>
 
 
             <Space
@@ -136,7 +138,8 @@
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
                 android:text="@string/genH"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck"
+                android:onClick="onCheckBoxClicked"/>
         </LinearLayout>
 
         <LinearLayout
@@ -152,7 +155,8 @@
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
                 android:text="@string/genT"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck"
+                android:onClick="onCheckBoxClicked"/>
 
             <Space
                 android:layout_width="wrap_content"
@@ -164,7 +168,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/genR" />
+                android:text="@string/genR"
+                android:onClick="onCheckBoxClicked"/>
 
             <Space
                 android:layout_width="wrap_content"
@@ -177,7 +182,8 @@
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
                 android:text="@string/genI"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck"
+                android:onClick="onCheckBoxClicked"/>
 
         </LinearLayout>
 
