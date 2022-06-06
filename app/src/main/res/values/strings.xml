@@ -15,5 +15,7 @@
     <string name="serie">Serie</string>
     <string name="peli">Película</string>
     <string name="sombra">Escribe aquí</string>
+    <string name="back">VOLVER</string>
+    <string name="data">DATOS</string>
 
 </resources>

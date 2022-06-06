@@ -41,8 +41,7 @@
                 android:layout_marginBottom="20dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                app:srcCompat="@drawable/mejor_imposible"
-                android:contentDescription="TODO" />
+                app:srcCompat="@drawable/mejor_imposible" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -66,7 +65,7 @@
                     android:minHeight="48dp"
                     tools:ignore="TextContrastCheck"
                     android:autofillHints=""
-                    android:inputType="text" />
+                    android:inputType="text"/>
 
                 <TextView
                     android:id="@+id/tvYear"
@@ -111,6 +110,7 @@
                 android:text="@string/genD"
                 tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
 
+
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -123,6 +123,7 @@
                 android:minHeight="48dp"
                 android:text="@string/genA"
                 tools:ignore="TextContrastCheck" />
+
 
             <Space
                 android:layout_width="wrap_content"
