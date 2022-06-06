@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Formulario film</string>
+    <string name="title">Formulario Entretenimiento</string>
+    <string name="titulo">Indica el título</string>
+    <string name="year">Indica el Año</string>
+    <string name="gendre">Indíca el género</string>
+    <string name="tipo">Seleccione uno</string>
+    <string name="save">GUARDAR</string>
+    <string name="genH">Humor</string>
+    <string name="genT">Terror</string>
+    <string name="genI">Infantil</string>
+    <string name="genD">Drama</string>
+    <string name="genR">Romántica</string>
+    <string name="genA">Acción</string>
+    <string name="serie">Serie</string>
+    <string name="peli">Película</string>
+    <string name="sombra">Escribe aquí</string>
+
+</resources>
